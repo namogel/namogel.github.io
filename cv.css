@@ -1,0 +1,103 @@
+body {
+    padding: 40px 10%;
+    font-size: 20px;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.title {
+    flex-grow: 1;
+}
+
+.picture {
+    width: 160px;
+    height: 160px;
+    background: url(profile.png);
+    background-size: cover;
+}
+
+h3 {
+    padding-left: 120px;
+}
+
+.line {
+    display: flex;
+    line-height: 30px;
+}
+
+.line .date {
+    min-width: 100px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.line i {
+    font-size: 0.9em;
+}
+
+.skill-logos {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    flex-wrap: wrap;
+}
+
+.skill-logos div {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.python {
+    background-image: url(logos/python.png);
+}
+.django {
+    background-image: url(logos/django.png);
+}
+.skills .django {
+    width: 40px;
+}
+.postgresql {
+    background-image: url(logos/postgresql.png);
+}
+.redis {
+    background-image: url(logos/redis.png);
+}
+.skills .redis {
+    height: 44px;
+}
+.celery {
+    background-image: url(logos/celery.png);
+}
+.elasticsearch {
+    background-image: url(logos/elasticsearch.svg);
+}
+.aws {
+    background-image: url(logos/aws.png);
+}
+.skills .aws {
+    witdh: 30px;
+}
+
+.company-logo {
+    background-size: cover;
+}
+
+.company-logo.one2team {
+    background-image: url(logos/one2team.png);
+    width: 80px;
+    height: 26px;
+}
+.company-logo.sketchfab {
+    background-image: url(logos/sketchfab.png);
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+}
