@@ -1,0 +1,77 @@
+header a {
+	font-size: 3em;
+	text-decoration: none;
+	color: black;
+}
+
+header {
+	padding-bottom: 1em;
+	border-bottom: 1px solid black;
+}
+
+nav {
+	display: inline-block;
+	float: right;
+}
+
+nav a {
+	margin-left: 30px;
+}
+
+main {
+	margin-top: 3em;
+}
+
+main section {
+	margin-top: 5em;
+}
+
+section > div {
+	padding-left: 3%;
+}
+
+.project-title {
+	margin-bottom: 2em;
+}
+
+.inline {
+	display: inline;
+}
+
+.github-link {
+	margin-left: 5px;
+}
+
+a.icon {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+a.github {
+	padding-left: 40px;
+	background-image: url(../../resources/GitHub-Mark-32px.png);
+}
+
+a.bitbucket {
+	padding-left: 25px;
+	background-image: url(../../resources/bitbucket.png);
+}
+
+.images-container {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+table img {
+	width: 100%;
+}
+
+.about p a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-position: inherit;
+}

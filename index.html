@@ -1,1 +1,194 @@
-Hello world
+<!doctype html>
+
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Développeur junior. Vitrine de ma formation">
+    <meta name="keywords" content="benjamin, saintes, enseirb-matmeca, enseirb, junior, déveoppement, web">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Benjamin Saintes - Développeur backend python</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="icon" href="resources/favicon.ico">
+    <link rel="stylesheet" href="css/index/normalize.css">
+    <link rel="stylesheet" href="css/index/skeleton.css">
+    <link rel="stylesheet" href="css/index/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <a href="mailto:benjamin.saintes@gmail.com" class="header">Benjamin Saintes</a>
+            <nav>
+                <a href="#projects" class="header">Mes projets</a>
+                <a href="cv.html" class="header">CV</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section id="about">
+                <h1>À propos de moi</h1>
+                <div class="about">
+                    <p>Je suis ingénieur en informatique travaillant chez <a href="https://sketchfab.com" style="text-decoration: None">sketchfab</a> en tant que lead développer backend python.<br/>Je cherche actuellement à changer d'entreprise pour rejoindre un projet plus technique dans le domaine du tooling.</p>
+                    <iframe width="640" height="480" src="https://sketchfab.com/models/6e5d858a8c3d4fa4a33b3f063c25969e/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+
+                    <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+                        <a href="https://sketchfab.com/models/6e5d858a8c3d4fa4a33b3f063c25969e?utm_source=oembed&utm_medium=embed&utm_campaign=6e5d858a8c3d4fa4a33b3f063c25969e" target="_blank" style="font-weight: bold; color: #1CAAD9;">Benjamin from Sketchfab</a>
+                        by <a href="https://sketchfab.com/3dselfie?utm_source=oembed&utm_medium=embed&utm_campaign=6e5d858a8c3d4fa4a33b3f063c25969e" target="_blank" style="font-weight: bold; color: #1CAAD9;">3D selfie</a>
+                        on <a href="https://sketchfab.com?utm_source=oembed&utm_medium=embed&utm_campaign=6e5d858a8c3d4fa4a33b3f063c25969e" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+                    </p>
+                </div>
+            </section>
+            <section id="projects">
+                <h1>Projets réalisés durant mon parcours académique</h1>
+                <div>
+                    <ul>
+                        <li>
+                            <div class="project-title">
+                                <h3 class="inline">Share your cloud</h3>
+                                <a class="icon github" href="https://github.com/namogel/enseirb-cloud" target="_blank"></a>
+                            </div>
+                            <p>
+                                Ce projet académique, réalisé en 3<sup>ème</sup> et dernière année d'école, a été pensé et élaboré par des élèves. Il consiste en un service de cloud relativement semblable à ceux existant aujourd'hui mais avec des dimensions communautaire et de sécurité en plus. Ce service est conçu pour être exploité depuis 3 types de supports différents: un navigateur web, une application mobile et un client lourd.
+                            </p>
+                            <p>
+                                Les motivations de ce projet étaient de disposer d'un service de cloud, organisable à souhait, permettant de lire son contenu depuis de multiples supports et offrant la possibilité de chiffrer les données avant de les télécharger sur le serveur. Ces grandes ambitions ont surtout été un frein dans sa réalisation d'autant plus que notre équipe était de taille restreinte.
+                            </p>
+                            <p>
+                                Je me suis personnellement chargé d'établir l'API uniforme de communication du service avec les modules ainsi que de développer l'interface web via un serveur django. J'ai ainsi pu affirmé ma maîtrise des services répartis en modules et du framework django.
+                            </p>
+                        </li>
+                        <li>
+                            <div class="project-title">
+                                <h3 class="inline">Voyageirb</h3>
+                            </div>
+                            <p>
+                                Ce projet s'inscrit dans le cadre d'une association de mon école d'ingénieur, Eirbware, dont j'étais membre lors de la 2<sup>ème</sup> année. Cette association, en plus de proposer de l'aide informatique aux élèves de l'école et un hébergement des sites webs des autres associations, développait des services webs pour les élèves. Elle offrait par exemple un service d'emploi du temps, de trombinoscope ainsi qu'un service d'annales (ce dernier très utile à la condition étudiante !).
+                            </p>
+                            <p>
+                                Nous avons entrepris avec l'équipe de l'association d'apporter notre pierre à l'édifice en créant un service de covoiturage. Ce site propose, au paiement près, toutes les fonctionnalités d'un site de covoiturage classique: création de voyages, demande et gestion des demandes de participation, publication de commentaires et notation des conducteurs. Nous avons même branché le service de mail de l'architecture mère pour alerter les différents parties d'un voyage des actions des autres.
+                            </p>
+                            <p>
+                                Je me suis occupé entre autre, des fonctionnalités de demande et approbation/refus de participation aux voyages ainsi que de l'envoi des mails correspondants. Ce projet m'a permis de découvrir les problématiques d'un service web social et de découvrir le framework web django.
+                            </p>
+                            <div class="images-container">
+                                <table style="width:100%; table-layout:fixed">
+                                    <tr>
+                                        <td colspan="2">
+                                            <img src="resources/images/voyageirb_home.png" title="Page d'accueil" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="resources/images/voyageirb_mail.png" title="Mail de confirmation"/>
+                                        </td>
+                                        <td>
+                                            <img src="resources/images/voyageirb_voyage.png" title="Page d'un voyage" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="project-title">
+                                <h3 class="inline">Pire2Pire</h3>
+                                <a class="icon bitbucket" href="https://bitbucket.org/namogel/enseirb-reseaux" target="_blank"></a>
+                            </div>
+                            <p>
+                                Ce projet académique, réalisé au second semestre de 2<sup>ème</sup> année d'école avec une équipe de 4 personnes, consistait à écrire un programme de partage de fichiers. Il se composait d'un serveur central contenant toutes les méta-informations du réseau ainsi qu'un client permettant de s'y connecter et de demander/partager des contenus.
+                            </p>
+                            <p>
+                                Le but du projet était d'appréhender les problématiques de communication entre modules et de mettre en application les connaissances théoriques des réseaux abordées durant l'année.
+                            </p>
+                            <p>
+                                Je me suis occupé pour ma part d'écrire le serveur en C. Il était intéressant d'une part de devoir écrire un programme écoutant et analysant tout ce qu'on lui envoyait sur un certain port mais aussi d'établir une structure de données robuste et performante permettant de stocker l'information contenue dans le réseau.
+                            </p>
+                        </li>
+                        <li>
+                            <div class="project-title">
+                                <h3 class="inline">Cone Vision</h3>
+                                <a class="icon bitbucket" href="https://bitbucket.org/namogel/cone-vision" target="_blank"></a>
+                            </div>
+                            <p>
+                                Ce projet est un projet entièrement personnel, réalisé lors de mes soirées alors que j'étais en stage de 1<sup>ère</sup> année en Écosse. Le but était de mettre au point un environnement de jeu vidéo minimaliste dans lequel on verrait évoluer un personnage du dessus, dont le champ de vision serait limité par l'obscurité et obstrué par des obstacles.
+                            </p>
+                            <p>
+                                Les motivations de ce projet étaient, d'une part de réaliser un projet en python et ainsi monter en compétences dans ce langage, et d'autre part d'implémenter un algorithme de détermination de champ de vision (idée que je tenais de <a href="https://www.redblobgames.com/articles/visibility/" target="_blank">cet article</a> que j'avais lu à l'époque).
+                            </p>
+                            <p>
+                                Ce projet a été réalisé de manière un peu rudimentaire, du à mes modestes connaissances d'époque du python et de l'informatique, mais je vous invite tout de même à en télécharger les sources afin d'en expérimenter le résultat.
+                            </p>
+                            <table style="margin:auto">
+                                <tr>
+                                    <td style="width:50%;">
+                                        <img src="resources/images/cone-vision-1.png"/>
+                                    </td>
+                                    <td>
+                                        <img src="resources/images/cone-vision-2.png"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="resources/images/cone-vision-3.png"/>
+                                    </td>
+                                    <td>
+                                        <img src="resources/images/cone-vision-4.png"/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li>
+                            <div class="project-title">
+                                <h3 class="inline">Carcassonne</h3>
+                            </div>
+                            <p>
+                                Ce projet académique, réalisé au second semestre de 1<sup>ère</sup> année d'école consistait, avec une équipe de 6 personnes, à écrire un programme en C permettant de jouer au jeu de société <a href="https://fr.wikipedia.org/wiki/Carcassonne_(jeu)" target="_blank">Carcassonne</a>. Il était l'occasion d'appliquer nos notions croissantes d'informatique ainsi que d’expérimenter une ambiance de travail dans un groupe de taille assez importante.
+                            </p>
+                            <p>
+                                Les enjeux de ce projet étaient, d'une part d’établir une interface graphique permettant d'interagir avec le jeu et d'autre part de transcrire les nombreuses et complexes règles du jeu. Notamment, le décompte des points se faisant par le calcul de la longueur des structures complétées, il a fallu mettre en place une structure de graphe avec des algorithmes adéquats pour la parcourir.
+                            </p>
+                            <p>
+                                Je me suis personnellement occupé de réaliser l'interface graphique et d'y intégrer les modules du jeu. Cette deuxième partie s'est d'ailleurs révélée très intéressante dans la mesure ou elle imposait d'avoir anticipé en amont la structure des modules afin qu'ils s’emboîtent bien ensemble. Cela a représenté un travail d'harmonisation du code mais aussi une synchronisation du travail.
+                            </p>
+                            <div class="images-container">
+                                <img src="resources/images/carcassonne.png" style="width: 100%" />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="project-title">
+                                <h3 class="inline">Puissance5</h3>
+                            </div>
+                            <p>
+                                Il était question dans ce projet d'écrire un programme en C permettant de jouer au jeu puissance 5 (genre de morpion sur une grille à taille variable). Ainsi proposer une interface graphique pour y jouer mais aussi vérifier les conditions de victoire/défaite. Une suggestion d'amélioration du projet consistait à permettre au joueur d'affronter des ordinateurs de difficulté croissantes.
+                            </p>
+                            <p>
+                                Ce projet, bien que de taille restreinte, a été très intéressant dans la mesure où il m'a permis d'appliquer les toutes fraîches notions d'informatique apprises lors du premier semestre d'école, et parce qu'il impliquait différentes notions de programmation telles que l'interface graphique ou l'intelligence artificielle.
+                            </p>
+                            <p>
+                                J'ai réalisé ce projet tout seul, à l'aide de la librairie ncurses pour l'environnement graphique. Les ordinateurs se basent sur l'algorithme min-max pour décider leurs coups.
+                            </p>
+                            <div class="images-container">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <img src="resources/images/puissance5-1.png"/>
+                                        </td>
+                                        <td>
+                                            <img src="resources/images/puissance5-2.png"/>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+</body>
+</html>

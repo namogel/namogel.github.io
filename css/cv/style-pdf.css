@@ -1,11 +1,11 @@
 body {
-    padding: 40px 10%;
-    font-size: 20px;
+    padding: 40px 60px;
+    font-size: 18px;
 }
 
 .header {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .title {
@@ -13,8 +13,8 @@ body {
 }
 
 .picture {
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     background: url(profile.png);
     background-size: cover;
 }
