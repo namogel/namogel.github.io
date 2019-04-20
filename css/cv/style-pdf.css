@@ -15,7 +15,7 @@ body {
 .picture {
     width: 150px;
     height: 150px;
-    background: url(profile.png);
+    background: url(../../resources/profile.jpg);
     background-size: cover;
 }
 
@@ -56,31 +56,31 @@ h3 {
 }
 
 .python {
-    background-image: url(logos/python.png);
+    background-image: url(../../resources/logos/python.png);
 }
 .django {
-    background-image: url(logos/django.png);
+    background-image: url(../../resources/logos/django.png);
 }
 .skills .django {
     width: 40px;
 }
 .postgresql {
-    background-image: url(logos/postgresql.png);
+    background-image: url(../../resources/logos/postgresql.png);
 }
 .redis {
-    background-image: url(logos/redis.png);
+    background-image: url(../../resources/logos/redis.png);
 }
 .skills .redis {
     height: 44px;
 }
 .celery {
-    background-image: url(logos/celery.png);
+    background-image: url(../../resources/logos/celery.png);
 }
 .elasticsearch {
-    background-image: url(logos/elasticsearch.svg);
+    background-image: url(../../resources/logos/elasticsearch.svg);
 }
 .aws {
-    background-image: url(logos/aws.png);
+    background-image: url(../../resources/logos/aws.png);
 }
 .skills .aws {
     witdh: 30px;
@@ -91,12 +91,12 @@ h3 {
 }
 
 .company-logo.one2team {
-    background-image: url(logos/one2team.png);
+    background-image: url(../../resources/logos/one2team.png);
     width: 80px;
     height: 26px;
 }
 .company-logo.sketchfab {
-    background-image: url(logos/sketchfab.png);
+    background-image: url(../../resources/logos/sketchfab.png);
     width: 30px;
     height: 30px;
     margin-top: 8px;

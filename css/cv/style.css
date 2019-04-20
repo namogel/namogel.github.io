@@ -15,7 +15,7 @@ body {
 .picture {
     width: 160px;
     height: 160px;
-    background: url(../../resources/profile.png);
+    background: url(../../resources/profile.jpg);
     background-size: cover;
 }
 
