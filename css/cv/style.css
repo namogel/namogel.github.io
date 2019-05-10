@@ -8,6 +8,24 @@ body {
     margin-bottom: 100px;
 }
 
+.icon-flag-eng{
+    background: url(../../resources/flag-eng.png);
+}
+
+.icon-flag-fr{
+    background: url(../../resources/flag-fr.png);
+}
+
+.icon-flag{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-size: cover;
+}
+
+
 .title {
     flex-grow: 1;
 }
