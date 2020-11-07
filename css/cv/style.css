@@ -100,6 +100,15 @@ h3 {
 .aws {
     background-image: url(../../resources/logos/aws.png);
 }
+.kubernetes {
+    background-image: url(../../resources/logos/kubernetes.png);
+}
+.scrapy {
+    background-image: url(../../resources/logos/scrapy.png);
+}
+.flask {
+    background-image: url(../../resources/logos/flask.png);
+}
 .skills .aws {
     witdh: 30px;
 }
@@ -108,13 +117,14 @@ h3 {
     background-size: cover;
 }
 
-.company-logo.one2team {
-    background-image: url(../../resources/logos/one2team.png);
-    width: 80px;
-    height: 26px;
-}
 .company-logo.sketchfab {
     background-image: url(../../resources/logos/sketchfab.png);
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+}
+.company-logo.wiremind {
+    background-image: url(../../resources/logos/wiremind.png);
     width: 30px;
     height: 30px;
     margin-top: 8px;
