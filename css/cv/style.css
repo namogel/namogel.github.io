@@ -37,7 +37,11 @@ body {
     background-size: cover;
 }
 
-h3 {
+.dates h3 {
+    padding-left: 120px;
+}
+
+.no-dates {
     padding-left: 120px;
 }
 
@@ -115,17 +119,18 @@ h3 {
 
 .company-logo {
     background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
 }
 
 .company-logo.sketchfab {
     background-image: url(../../resources/logos/sketchfab.png);
-    width: 30px;
-    height: 30px;
-    margin-top: 8px;
 }
 .company-logo.wiremind {
     background-image: url(../../resources/logos/wiremind.png);
-    width: 30px;
-    height: 30px;
-    margin-top: 8px;
+}
+.company-logo.sporteasy {
+    background-image: url(../../resources/logos/sporteasy.png);
+    width: 40px;
 }
